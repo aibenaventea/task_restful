@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  urlServiceGetAll: 'http://localhost:8000/getAll',
+  urlServiceGetById: 'http://localhost:8000/getById',
+  urlServiceCreateNew: 'http://localhost:8000/createNew',
+  urlServiceUpdate: 'http://localhost:8000/update',
+  urlServiceDelete: 'http://localhost:8000/delete'
 };
 
 /*
