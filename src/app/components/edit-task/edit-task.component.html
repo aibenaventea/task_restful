@@ -1,0 +1,18 @@
+
+<br><br>
+<article >
+  <form (submit)="onEditTask()">
+    <article >
+      <h1>Task details</h1>
+      <section >
+        <div >Title:<input type="text" name="taskToShow.title" value="{{taskToShow.title}}"
+            [(ngModel)]="taskToShow.title"></div>
+        <div >Description:<input type="text" name="taskToShow.description"
+            value="{{taskToShow.description}}" [(ngModel)]="taskToShow.description"></div>
+        <div >Estado:<input type="text" name="taskToShow.completed" value="{{taskToShow.completed}}"
+            [(ngModel)]="taskToShow.completed"></div>
+        <div><input type="submit" value="Save Changes"></div>
+      </section>
+    </article>
+  </form>
+</article>
